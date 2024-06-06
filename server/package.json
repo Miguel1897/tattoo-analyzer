@@ -1,0 +1,17 @@
+{
+    "name": "tattoo-analyzer-server",
+    "version": "1.0.0",
+    "main": "server.js",
+    "dependencies": {
+        "body-parser": "^1.20.2",
+        "dotenv": "^8.6.0",
+        "express": "^4.19.2",
+        "googleapis": "^39.2.0",
+        "mongodb": "^6.7.0",
+        "mongoose": "^5.13.22",
+        "twilio": "^5.1.1"
+    },
+    "scripts": {
+        "start": "node --trace-deprecation server.js"
+    }
+}
